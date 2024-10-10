@@ -1,0 +1,44 @@
+$ORIGIN .
+dn11                    300     IN      SOA     a.root.dn11 hostmaster.dn11 2024101001 60 60 604800 60
+dn11                    300     IN      NS      172.16.255.53
+;
+hakuya.dn11             60      IN      NS      ns1.hakuya.dn11
+ns1.hakuya.dn11         60      IN      A       100.64.0.1
+;
+ts.dn11                 60      IN      NS      ns1.ts.dn11
+ns1.ts.dn11             60      IN      A       172.16.3.53
+;
+syx.dn11                60      IN      NS      ns1.syx.dn11
+uptime.dn11             60      IN      NS      ns1.potat0.dn11
+ns1.syx.dn11            60      IN      A       172.16.7.102
+;
+woshiluo.dn11           60      IN      NS      ns1.woshiluo.dn11
+ns1.woshiluo.dn11       60      IN      A       172.16.20.53
+;
+baimeow.dn11            60      IN      NS      ns2.baimeow.dn11
+acme.dn11               60      IN      NS      ns1.potat0.dn11
+4.16.172.in-addr.arpa   60      IN      NS      ns2.baimeow.dn11
+14.16.172.in-addr.arpa  60      IN      NS      ns2.baimeow.dn11
+ns2.baimeow.dn11        60      IN      A       172.16.4.6
+;
+iraze.dn11              60      IN      NS      ns1.iraze.dn11
+ns1.iraze.dn11          60      IN      A       172.16.2.13
+;
+douzza.dn11             60      IN      NS      ns1.douzza.dn11
+ns1.douzza.dn11         60      IN      A       172.16.49.1
+;
+meva.dn11               60      IN      NS      ns1.meva.dn11
+ns1.meva.dn11           60      IN      A       172.16.7.53
+;
+ib.dn11                 60      IN      NS      ns1.ib.dn11
+ns1.ib.dn11             60      IN      A       172.16.12.11
+;
+potat0.dn11             60      IN      NS      ns1.potat0.dn11
+18.10.in-addr.arpa      60      IN      NS      ns1.potat0.dn11
+ns1.potat0.dn11         60      IN      A       10.18.0.53
+;
+daidr.dn11              60      IN      NS      ns1.daidr.dn11
+ns1.daidr.dn11          60      IN      A       172.16.33.53
+;
+gs.dn11                 60      IN      NS      ns1.gs.dn11
+ns1.gs.dn11             60      IN      A       172.16.7.53
